@@ -31,6 +31,7 @@ namespace SkalProj_Datastrukturer_Minne
             Console.WriteLine("Change the number of positions in the list by:\n" +
                 "Press + To increment.\nPress - To decrement.\nPress - while zero to exit.");
             WriteSizes();
+
             ConsoleKey key;
             bool loop = true;
             while (loop)
