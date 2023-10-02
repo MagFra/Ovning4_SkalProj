@@ -43,7 +43,7 @@ namespace SkalProj_Datastrukturer_Minne
                         ExamineStack();
                         break;
                     case '4':
-                        CheckParanthesis();
+                        CheckParanthesis.Do();
                         break;
                     /*
                      * Extend the menu to include the recursive 
@@ -100,16 +100,6 @@ namespace SkalProj_Datastrukturer_Minne
                 temp.Append(c);
             }
             return temp.ToString();
-        }
-
-        static void CheckParanthesis()
-        {
-            /*
-             * Use this method to check if the paranthesis in a string is Correct or incorrect.
-             * Example of correct: (()), {}, [({})],  List<int> list = new List<int>() { 1, 2, 3, 4 };
-             * Example of incorrect: (()]), [), {[()}],  List<int> list = new List<int>() { 1, 2, 3, 4 );
-             */
-
         }
 
     }
